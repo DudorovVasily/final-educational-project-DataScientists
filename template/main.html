@@ -16,6 +16,9 @@
     <title>Прогноз сварки </title>
 </head>
 <form action="{{url_for('main')}}" method="POST">
+    <p style="font-size:30px">
+        Введите параметры сварки
+    </p>
     <fieldset>
         <legend>Введите значения IW </legend>
         <input name="IW" type="number" step="0.01" min="0" required>
