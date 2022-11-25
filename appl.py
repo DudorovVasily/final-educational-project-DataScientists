@@ -29,4 +29,4 @@ def main():
         return render_template('main.html',result=res, main_text=texst)
 
 if __name__=='__main__':
-    appl.run(debug=True)
+    appl.run(debug=False)
